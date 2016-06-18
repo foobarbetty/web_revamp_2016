@@ -1,0 +1,23 @@
+{
+  "name": "web_revamp_2016",
+  "version": "1.0.0",
+  "description": "\"FooBar Website\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: This is the default error message\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foobarbetty/web_revamp_2016.git"
+  },
+  "author": "FooBarBetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foobarbetty/web_revamp_2016/issues"
+  },
+  "homepage": "https://github.com/foobarbetty/web_revamp_2016#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
