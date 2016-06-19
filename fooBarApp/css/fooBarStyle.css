@@ -9,9 +9,6 @@ Colors:
 	h1 font color:			#828282, rgb(130,130,130)
 
 ---------------------------------------------------- */
-.testing {
-  width: 71.42857%; }
-
 body {
   margin: 0;
   padding: 0;
@@ -25,5 +22,31 @@ h2 {
   font-size: 12px;
   text-transform: uppercase; }
 
-.sidebar label {
-  display: block; }
+.sidebar {
+  margin: 0;
+  padding: 0; }
+  .sidebar .sidebar-folder, .sidebar .sidebar-subfolder {
+    display: block;
+    padding: 1vw;
+    padding-left: 5vw; }
+  .sidebar .sidebar-subfolder {
+    padding-left: 10vw; }
+  .sidebar .sidebar-folder::before {
+    content: '\1F4C1';
+    padding-right: 4vw; }
+  .sidebar ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-left: 15vw; }
+    .sidebar ul:last-child {
+      padding-left: 10vw; }
+    .sidebar ul li {
+      padding: 1vw; }
+      .sidebar ul li a {
+        text-decoration: none;
+        color: #000000; }
+    .sidebar ul li::before {
+      content: '\1F4C4';
+      padding-right: 4vw; }
